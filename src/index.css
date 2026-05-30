@@ -2,11 +2,11 @@
 
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --bg:#060612;--bg2:#0D0D1F;--bg3:#12122A;--bg4:#1A1A35;
-  --blue:#4F6EF7;--blue2:#6B85F8;--cyan:#00D4FF;--purple:#8B5CF6;
-  --text:#F0F0FF;--text2:#9090B0;--text3:#6060A0;
-  --border:#2A2A4A;--border2:#3A3A5A;
-  --green:#00E5A0;--red:#FF4D6A;--gold:#FFB800;
+  --bg:#0A0E1A;--bg2:#111827;--bg3:#1A2035;--bg4:#232D45;
+  --blue:#4F6EF7;--blue2:#6B8AFF;--cyan:#00D4FF;--purple:#7C5CFC;
+  --text:#F0F4FF;--text2:#8892A4;--text3:#6B7280;
+  --border:#1E2A3A;--border2:#2A3A4A;
+  --green:#22C55E;--red:#EF4444;--gold:#F59E0B;
 }
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-height:100vh}
