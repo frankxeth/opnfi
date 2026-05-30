@@ -1,49 +1,38 @@
-
 <div align="center">
-  <br />
-  <a href="https://automatic-doodle-pjpqg467q6j7hwxw-5173.app.github.dev" target="_blank">
-    <img src="public/logo.svg" alt="OPNfi Logo" width="600"/>
-  </a>
-  <br /><br />
+  <img src="/public/logo.svg" alt="OPNfi Logo" width="545" />
+  
+  # OPNfi — Real World Assets on OPN Chain
 
-  <div>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-    <img src="https://img.shields.io/badge/Ethers.js-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethers.js" />
-    <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity" />
-    <img src="https://img.shields.io/badge/OPN_Chain-4F6EF7?style=for-the-badge" alt="OPN Chain" />
-  </div>
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+  ![Ethers.js](https://img.shields.io/badge/Ethers.js-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+  ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+  ![OPN Chain](https://img.shields.io/badge/OPN_Chain-4F6EF7?style=for-the-badge)
 
-  <h1 align="center">OPNfi — Real World Assets on OPN Chain</h1>
+  Tokenize and trade fractional ownership of real-world properties,
+  fully on-chain via smart contracts on the OPN Testnet.
 
-  <p align="center">
-    Tokenize and trade fractional ownership of real-world properties,<br/>
-    fully on-chain via smart contracts on the OPN Testnet.
-  </p>
+  [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://op-nfi.vercel.app/)
+  [![Contract](https://img.shields.io/badge/📜_Smart_Contract-4F6EF7?style=for-the-badge)](https://testnet.iopn.tech/address/0x29c57355C070f27E54cF499114EeC8F3865f0321)
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/frankxeth/OPNfi)
 
-  <a href="https://automatic-doodle-pjpqg467q6j7hwxw-5173.app.github.dev" target="_blank">
-    <img src="https://img.shields.io/badge/🚀 Live Demo-00D4FF?style=for-the-badge" alt="Live Demo" />
-  </a>
-  <a href="https://testnet.iopn.tech/address/0x29c57355C070f27E54cF499114EeC8F3865f0321" target="_blank">
-    <img src="https://img.shields.io/badge/📜 Smart Contract-4F6EF7?style=for-the-badge" alt="Contract" />
-  </a>
 </div>
 
 ---
 
 ## 📋 Table of Contents
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Smart Contract](#smart-contract)
-6. 🌐 [IOPn Ecosystem](#iopn-ecosystem)
-7. 🏘️ [Properties Listed](#properties-listed)
+1. 🤖 [Introduction](#-introduction)
+2. ⚙️ [Tech Stack](#️-tech-stack)
+3. 🔋 [Features](#-features)
+4. 🤸 [Quick Start](#-quick-start)
+5. 🔗 [Smart Contract](#-smart-contract)
+6. 🌐 [IOPn Ecosystem](#-iopn-ecosystem)
+7. 🏘️ [Properties Listed](#️-properties-listed)
 
 ---
 
-## <a name="introduction">🤖 Introduction</a>
+## 🤖 Introduction
 
 **OPNfi** is a decentralized Real World Asset (RWA) platform built on [OPN Chain](https://chain.iopn.io) — the sovereign Layer 1 blockchain powering the Internet of People (IOPn) ecosystem.
 
@@ -55,7 +44,7 @@ Built as part of the **IOPn Season 1 · DeFi & Open Finance** hackathon.
 
 ---
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## ⚙️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -69,7 +58,7 @@ Built as part of the **IOPn Season 1 · DeFi & Open Finance** hackathon.
 
 ---
 
-## <a name="features">🔋 Features</a>
+## 🔋 Features
 
 👉 **Fractional Property Ownership** — Buy shares of real estate starting from 0.001 OPN
 
@@ -97,7 +86,7 @@ Built as part of the **IOPn Season 1 · DeFi & Open Finance** hackathon.
 
 ---
 
-## <a name="quick-start">🤸 Quick Start</a>
+## 🤸 Quick Start
 
 **Prerequisites**
 
@@ -114,7 +103,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173)
+Open http://localhost:5173
 
 **Connect to OPN Testnet**
 
@@ -132,7 +121,7 @@ Visit: **[faucet.iopn.tech](https://faucet.iopn.tech/)**
 
 ---
 
-## <a name="smart-contract">🔗 Smart Contract</a>
+## 🔗 Smart Contract
 
 | | |
 |---|---|
@@ -143,7 +132,7 @@ Visit: **[faucet.iopn.tech](https://faucet.iopn.tech/)**
 
 ---
 
-## <a name="iopn-ecosystem">🌐 IOPn Ecosystem</a>
+## 🌐 IOPn Ecosystem
 
 | Project | Description | Link |
 |---|---|---|
@@ -156,7 +145,7 @@ Visit: **[faucet.iopn.tech](https://faucet.iopn.tech/)**
 
 ---
 
-## <a name="properties-listed">🏘️ Properties Listed</a>
+## 🏘️ Properties Listed
 
 | # | Property | Location | Price/Share |
 |---|---|---|---|
@@ -170,9 +159,12 @@ Visit: **[faucet.iopn.tech](https://faucet.iopn.tech/)**
 ---
 
 <div align="center">
-  <br />
-  <p>Built with ❤️ by <a href="https://x.com/l1luna_">@l1luna_</a> on <a href="https://iopn.io">IOPn</a></p>
-  <p><em>One chain. One identity. Fully sovereign.</em></p>
-  <br />
-  <img src="https://img.shields.io/badge/Built_on-IOPn-4F6EF7?style=for-the-badge" alt="Built on IOPn" />
+
+Built with ❤️ by [@frankxeth](https://github.com/frankxeth) on [IOPn](https://iopn.io)
+
+*One chain. One identity. Fully sovereign.*
+
+[![Built on IOPn](https://img.shields.io/badge/Built_on-IOPn-4F6EF7?style=for-the-badge)](https://iopn.io)
+[![Live on Vercel](https://img.shields.io/badge/Live_on-Vercel-000000?style=for-the-badge&logo=vercel)](https://op-nfi.vercel.app/)
+
 </div>
