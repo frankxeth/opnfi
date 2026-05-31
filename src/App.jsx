@@ -30,6 +30,26 @@ function SkeletonCard() {
       </div>
     </div>
   )
+
+function LandingSection() {
+  return (
+    <div className="land-section">
+      <h2>The best way to own real estate.</h2>
+      <p>Reach real property ownership on OPN Chain — fully transparent and verifiable on blockchain.</p>
+      <div className="land-stats">
+        <div className="land-stat"><div className="land-stat-val">6</div><div className="land-stat-label">Properties Listed</div></div>
+        <div className="land-stat"><div className="land-stat-val">0.001</div><div className="land-stat-label">Min OPN per Share</div></div>
+        <div className="land-stat"><div className="land-stat-val">984</div><div className="land-stat-label">OPN Chain ID</div></div>
+      </div>
+      <div className="land-partners">
+        <div className="land-card"><div className="land-card-header"><img src="https://images.unsplash.com/photo-1555899434-94d1368aa7af?w=44&h=44&fit=crop" style={{width:"44px",height:"44px",borderRadius:"10px",objectFit:"cover"}} alt="Jakarta" /><div className="land-card-name">Jakarta Properties</div></div><div className="land-card-val">3 Listed</div><div className="land-card-desc">Menteng, Gedung MPR/DPR, Kos Malioboro</div></div>
+        <div className="land-card"><div className="land-card-header"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=44&h=44&fit=crop" style={{width:"44px",height:"44px",borderRadius:"10px",objectFit:"cover"}} alt="Bali" /><div className="land-card-name">Bali Properties</div></div><div className="land-card-val">1 Listed</div><div className="land-card-desc">Villa Ubud Bali — 0.015 OPN/share</div></div>
+        <div className="land-card"><div className="land-card-header"><img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=44&h=44&fit=crop" style={{width:"44px",height:"44px",borderRadius:"10px",objectFit:"cover"}} alt="Dubai" /><div className="land-card-name">Dubai Properties</div></div><div className="land-card-val">1 Listed</div><div className="land-card-desc">Burj Khalifa Residences — 0.2 OPN/share</div></div>
+        <div className="land-card"><div className="land-card-header"><img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=44&h=44&fit=crop" style={{width:"44px",height:"44px",borderRadius:"10px",objectFit:"cover"}} alt="Tokyo" /><div className="land-card-name">Tokyo Properties</div></div><div className="land-card-val">1 Listed</div><div className="land-card-desc">Shibuya Sky Tower — 0.15 OPN/share</div></div>
+      </div>
+    </div>
+  )
+}
 }
 
 export default function App() {
@@ -518,6 +538,7 @@ export default function App() {
         </div>
       </div>}
 
+        <LandingSection />
       <footer className="footer">
         <div className="footer-inner">
           <div className="footer-top">
@@ -560,4 +581,24 @@ export default function App() {
       </footer>
     </div>
   )
+
+function LandingSection() {
+  return (
+    <div className="land-section">
+      <h2>The best way to own real estate.</h2>
+      <p>Reach real property ownership on OPN Chain — fully transparent and verifiable on blockchain.</p>
+      <div className="land-stats">
+        <div className="land-stat"><div className="land-stat-val">6</div><div className="land-stat-label">Properties Listed</div></div>
+        <div className="land-stat"><div className="land-stat-val">0.001</div><div className="land-stat-label">Min OPN per Share</div></div>
+        <div className="land-stat"><div className="land-stat-val">984</div><div className="land-stat-label">OPN Chain ID</div></div>
+      </div>
+      <div className="land-partners">
+        <div className="land-card"><div className="land-card-header"><img src="https://images.unsplash.com/photo-1555899434-94d1368aa7af?w=44&h=44&fit=crop" style={{width:"44px",height:"44px",borderRadius:"10px",objectFit:"cover"}} alt="Jakarta" /><div className="land-card-name">Jakarta Properties</div></div><div className="land-card-val">3 Listed</div><div className="land-card-desc">Menteng, Gedung MPR/DPR, Kos Malioboro</div></div>
+        <div className="land-card"><div className="land-card-header"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=44&h=44&fit=crop" style={{width:"44px",height:"44px",borderRadius:"10px",objectFit:"cover"}} alt="Bali" /><div className="land-card-name">Bali Properties</div></div><div className="land-card-val">1 Listed</div><div className="land-card-desc">Villa Ubud Bali — 0.015 OPN/share</div></div>
+        <div className="land-card"><div className="land-card-header"><img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=44&h=44&fit=crop" style={{width:"44px",height:"44px",borderRadius:"10px",objectFit:"cover"}} alt="Dubai" /><div className="land-card-name">Dubai Properties</div></div><div className="land-card-val">1 Listed</div><div className="land-card-desc">Burj Khalifa Residences — 0.2 OPN/share</div></div>
+        <div className="land-card"><div className="land-card-header"><img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=44&h=44&fit=crop" style={{width:"44px",height:"44px",borderRadius:"10px",objectFit:"cover"}} alt="Tokyo" /><div className="land-card-name">Tokyo Properties</div></div><div className="land-card-val">1 Listed</div><div className="land-card-desc">Shibuya Sky Tower — 0.15 OPN/share</div></div>
+      </div>
+    </div>
+  )
+}
 }
